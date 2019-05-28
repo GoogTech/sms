@@ -6,6 +6,7 @@
 - *第一阶段：+信息管理功能 :white_check_mark:*
 - *第二阶段：+成绩管理功能 :x:*
 
+
 ### 系统截屏
 
 - *登录页面*
@@ -169,8 +170,13 @@ h-ui/
 easyui/
 ```
 
- 
- 
+
+### 数据库ER图
+
+![](https://raw.githubusercontent.com/YUbuntu0109/Student-Information-Management-System/master/demonstration_picture/sms_er.png)
+
+
+  
 *:books:更多有趣项目及详细学习笔记请前往我的个人博客哟（づ￣3￣）づ╭❤～ : https://yubuntu0109.github.io/* 
  
 :coffee: Look forward to your contribution !
