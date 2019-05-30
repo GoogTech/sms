@@ -6,9 +6,25 @@
 - *第一阶段：+信息管理功能 :white_check_mark:*
 - *第二阶段：+成绩管理功能 :x:*
 
+#### 用户权限介绍
+- *管理员 : 具有所有管理模块的权限*
+- *教师 : 具有学生管理信息模块的所有权限,但在教师信息管理模块中只具有查询并修改个人信息的权限*
+- *学生 : 只具有查询并修改个人信息的权限*
+
+*设置权限的核心示例代码如下 :*
+```java
+// 用户权限设置: 如果当前用户类型为教师,则将其权限设置为仅能查询个人信息
+if (userType == 3) {
+    TeacherInfo currentTeacherInfo = (TeacherInfo) request.getSession().getAttribute("userInfo");
+	teacherInfo.setId(currentTeacherInfo.getId());
+}
+
+// 获取分页后的教师列表信息
+List<TeacherInfo> teacherList = teacherDao.getTeacherList(teacherInfo, new Paging(currentPage, pageSize));
+```
+
 
 ### 系统截屏
-
 - *登录页面*
 
 ![](https://raw.githubusercontent.com/YUbuntu0109/Student-Information-Management-System/master/demonstration_picture/Student_Information_Management_System01-LoginInterface.PNG)
