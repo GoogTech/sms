@@ -193,9 +193,12 @@ easyui/
 
 
   
-*:books:更多有趣项目及详细学习笔记请前往我的个人博客哟（づ￣3￣）づ╭❤～ : https://yubuntu0109.github.io/* 
+:clock8: *`2019-8-26`回首阅读该项目源码,发现该项目中的代码让我感觉非常臃肿,其可扩张性也很差哟 ! 这毕竟是我第一个`Java web`项目,所以请原谅吧嘿嘿~ 为了让你写出更加优美的代码及更加具有可扩张性的项目,这里我给出了一个简单的参考案例 ：https://github.com/YUbuntu0109/springboot-beginner/tree/refactor-190823 , 及一个可供你参考与学习的小项目 : https://github.com/YUbuntu0109/springboot-shiro*
+
+
+
+*:books:更多有趣项目及详细学习笔记请前往我的个人博客哟（づ￣3￣）づ╭❤～ : https://yubuntu0109.github.io/*
+
+*👩‍💻学习笔记已全部开源 : https://github.com/YUbuntu0109/YUbuntu0109.github.io*
  
-:coffee: Look forward to your contribution !
-
-:man_student: If you need any help, please contact me ~ QQ : 3083968068
-
+*:coffee: Look forward to your contribution, if you need any help, please contact me~ QQ : 3083968068*
