@@ -43,10 +43,6 @@ List<TeacherInfo> teacherList = teacherDao.getTeacherList(teacherInfo, new Pagin
 │
 └─student_information_management_system
     │       
-    │
-    ├─build
-    │  └─classes
-    │      │  databaseConfig.properties
     │                                                                                       
     │
     ├─database
